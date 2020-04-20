@@ -1,0 +1,78 @@
+*
+{
+  margin: 0px;padding: 0px;
+}
+body
+{
+  background-color: #9266ff;
+
+}
+.header
+{
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+.App .heading
+{
+  background-color:#3f3160;
+  width: 500px;height: 40px;
+  color: white;
+  text-align: center;
+  font-family: monospace;
+  margin: 20px auto;
+  font-size: 30px;
+  box-shadow: 0px 5px 5px #1f0b50;
+}
+.App .class1
+{
+  background-color: #3f3160;
+  width: 500px;height: 600px;
+  margin: 20px auto;
+  overflow: scroll;
+  border-radius: 5px;
+  box-shadow: 0px 8px 5px -5px #250470;
+}
+
+
+::-webkit-scrollbar 
+{
+  display: none;
+}
+
+
+.App input
+{
+  width: 300px; height: 50px;
+  background-color: #6040aa;
+  border: 2px solid #34235e;
+  border-radius: 5px;
+  padding-left: 20px;
+  margin-right: 20px;
+  font-size: 18px;
+  color: #fff;
+}
+.App input:focus,.App button:focus
+{
+  outline: none;
+}
+.App input::placeholder
+{
+  color: #907cc0;
+  font-size: 16px;
+}
+.App button.add
+{
+  width: 60px;height: 40px;
+  background-color: rgb(218, 214, 12);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;font-size: 18px;
+}
+.Task
+{
+  position: relative;
+  top: 50px;width: 100%;
+  
+}
